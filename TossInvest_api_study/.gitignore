@@ -8,8 +8,9 @@ env/
 venv/
 .venv/
 
-# Environment Variables
+# Environment Variables & Tokens
 .env
+.token_cache.json
 
 # SQLite
 *.db
