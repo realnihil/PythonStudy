@@ -6,6 +6,8 @@
 3. 발급받은 토큰을 로컬 캐시(.token_cache.json)에 저장하여 불필요한 중복 발급을 방지합니다.
 """
 
+from __future__ import annotations
+
 import json
 import os
 import sys
