@@ -1,6 +1,8 @@
 # 📈 토스증권 API & 파이썬 1:1 실습 스터디
 
 > **참고 가이드:** [고구마의 토스증권 API 파이썬 완전 가이드 (총 21강)](https://gogma-log.tistory.com/50)  
+> **스터디 일지:** 📝 [STUDY_LOG.md](file:///d:/PythonStudy/TossInvest_api_study/STUDY_LOG.md) (매 세션 시작/종료 시 자동 기록 및 관리)  
+> **에이전트 지침:** 🤖 [AGENTS.md](file:///d:/PythonStudy/TossInvest_api_study/AGENTS.md) (1:1 튜터링 및 자동 일지 기록 규칙)  
 > **스터디 목표:** 파이썬 기본기(HTTP 통신, 객체지향, 데이터 분석)를 다지면서, 토스증권 API를 활용한 시세 조회·계좌 관리·지표 분석을 단계별로 직접 구현해보기
 
 ---
@@ -8,8 +10,8 @@
 ## 🗺️ 전체 학습 커리큘럼
 
 ### [1단계] API 기초와 통신 메커니즘 (1~3강)
-- [ ] **1강:** HTTP 통신 기초와 API 개념 (`requests`, REST API, JSON)
-- [ ] **2강:** 토스증권 API 키 발급 및 `.env` 보안 환경 설정
+- [x] **1강:** HTTP 통신 기초와 API 개념 (`requests`, REST API, JSON)
+- [x] **2강:** 토스증권 API 키 발급 및 `.env` 보안 환경 설정 (토큰 발급 & 캐싱 실습 완료)
 - [ ] **3강:** 토스 인증(OAuth/액세스 토큰 발급)과 엔드포인트 전체 지도 살펴보기
 
 ### [2단계] 객체지향 설계와 데이터 조회 (4~7강)
