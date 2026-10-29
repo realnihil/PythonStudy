@@ -3,7 +3,7 @@
 > **스터디 목표:** 토스증권 Open API를 활용한 파이썬 프로그래밍 기초 및 실전 자동화 구현  
 > **저장소:** [github.com/realnihil/PythonStudy/tree/main/TossInvest_api_study](https://github.com/realnihil/PythonStudy/tree/main/TossInvest_api_study)  
 > **현재 진도:** 2강 / 14회차 완료 (진도율: 14.3%)  
-> **다음 세션 목표 (Next Up):** [3강 & 6강] 토스증권 REST API 구조 파악 및 주식 시세(현재가, 호가창) 조회 실습
+> **다음 세션 목표 (Next Up):** [1~2강 복습] `lessons/01_auth_token/get_token.py` 토큰 발급 및 캐시 재사용 직접 재실행 ➔ [3강 & 6강] 토스증권 주식 시세(현재가, 호가창) 조회 실습
 
 ---
 
@@ -43,4 +43,5 @@
 * **실행 결과 검증:**
   * 실제 토스증권 서버와 통신하여 `eyJraWQi...` 액세스 토큰 정상 발급 및 2회차 실행 시 캐시 재사용 확인 완료
 * **다음 시간 계획:**
-  * 발급받은 토큰을 헤더(`Authorization: Bearer <TOKEN>`)에 실어 토스증권 시세 조회 엔드포인트(`GET /api/v1/prices`, `GET /api/v1/orderbook`) 호출하기
+  * 사용자 요청: [1~2강 복습] 오늘 작성한 `get_token.py`를 직접 다시 실행해보며 토큰 발급/캐싱 흐름 복습
+  * 이어서 [3강 & 6강] 발급받은 토큰을 헤더(`Authorization: Bearer <TOKEN>`)에 실어 토스증권 시세 조회 엔드포인트(`GET /api/v1/prices`, `GET /api/v1/orderbook`) 호출하기
