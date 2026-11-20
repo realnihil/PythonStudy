@@ -1,0 +1,7 @@
+﻿wheels/
+wheels.zip
+workspaces/
+__pycache__/
+*.pyc
+.code_tutor_config.json
+code_tutor_v10.zip
